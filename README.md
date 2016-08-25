@@ -6,7 +6,7 @@ Android基于JsBridge封装的高效带加载进度的WebView
 
 ![](https://github.com/NeglectedByBoss/JsWebView/blob/master/TcBrowse/app/src/main/res/drawable/logoMax.png)
 
-只要：
+主要功能：
 
 - 支持header
 - 支持进度
@@ -18,14 +18,16 @@ Android基于JsBridge封装的高效带加载进度的WebView
 
 # Function
   
-  初始化
+  **初始化**
       
         ProgressBarWebView  mProgressBarWebView = (ProgressBarWebView) findViewById(R.id.login_progress_webview);
       
-  设置WebViewClient
-         mProgressBarWebView.setWebViewClient(new CustomWebViewClient(mProgressBarWebView.getWebView()) {
-
-
+  **设置WebViewClient**
+  
+  
+  
+           
+          mProgressBarWebView.setWebViewClient(new CustomWebViewClient(mProgressBarWebView.getWebView()) {
             @Override
             public String onPageError(String url) {
                 //指定网络加载失败时的错误页面
@@ -46,11 +48,14 @@ Android基于JsBridge封装的高效带加载进度的WebView
         // 打开页面，也可以支持网络url
         mProgressBarWebView.loadUrl("file:///android_asset/demo.html");
         
-        // 注册hander方法名 
-        mHandlers.add("login");
+        
         
 
-        //回调js的方法
+**回调js的方法**
+
+        // 添加hander方法名 
+        mHandlers.add("login");
+       // 订阅此方法key
         mProgressBarWebView.registerHandlers(mHandlers, new JsHandler() {
             @Override
             public void OnHandler(String handlerName, String responseData, CallBackFunction function) {
@@ -62,8 +67,8 @@ Android基于JsBridge封装的高效带加载进度的WebView
                
             }
         });
+**调用js**
 
-        // 调用js
         mProgressBarWebView.callHandler("callNative", "hello H5, 我是java", new JavaCallHandler() {
             @Override
             public void OnHandler(String handlerName, String jsResponseData) {
@@ -72,7 +77,9 @@ Android基于JsBridge封装的高效带加载进度的WebView
         });
         
         
-        //发送消息给js 
+**发送消息给js**
+
+
         mProgressBarWebView.send("hello world!", new CallBackFunction() {
             @Override
             public void onCallBack(String data) {
