@@ -1,6 +1,6 @@
 # JsWebView
 Android基于JsBridge封装的高效带加载进度的WebView
-
+可用作简单应用内置浏览器，帮你快速开发Hybrid APP
 
 
 
