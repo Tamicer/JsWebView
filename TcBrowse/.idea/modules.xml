@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TcBrowse.iml" filepath="$PROJECT_DIR$/TcBrowse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/browse/browse.iml" filepath="$PROJECT_DIR$/browse/browse.iml" />
+    </modules>
+  </component>
+</project>

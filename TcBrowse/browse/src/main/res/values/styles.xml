@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- tip progressbar start -->
+    <style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">#ff6900</item>
+        <item name="progress_reached_color">#ff6900</item>
+        <item name="progress_text_visibility">invisible</item>
+        <item name="progress_text_size">0sp</item>
+        <item name="progress_text_color">#00a2ff</item>
+        <item name="progress_reached_bar_height">3dp</item>
+        <item name="progress_unreached_bar_height">0dp</item>
+    </style>
+    <!-- tip progressbar end -->
+
+</resources>
