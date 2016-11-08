@@ -16,6 +16,25 @@ Android基于JsBridge封装的高效带加载进度的WebView
 - 
 
 
+#Dependencies
+
+**Gradle:**  
+
+root：
+
+      repositories {
+    maven { url "https://jitpack.io" }
+    jcenter()
+      }
+
+Module:
+
+       dependencies {
+       .....
+       compile 'com.tamic:browse:1.0.0'
+    
+       }
+
 # Function
   
   **初始化**
