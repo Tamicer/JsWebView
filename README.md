@@ -6,6 +6,7 @@ Android基于JsBridge封装的高效带加载进度的WebView
 
 ![](https://github.com/NeglectedByBoss/JsWebView/blob/master/TcBrowse/app/src/main/res/drawable/logoMax.png)
 
+
 主要功能：
 
 - 支持header
@@ -15,7 +16,10 @@ Android基于JsBridge封装的高效带加载进度的WebView
 - 支持cookie同步
 - 
 
+#UI
 
+![](http://img.blog.csdn.net/20161209180646623?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2s3MTk4ODc5MTY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
+)
 #Dependencies
 
 **Gradle:**  
