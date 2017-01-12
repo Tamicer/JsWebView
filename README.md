@@ -1,11 +1,9 @@
-# JsWebView
-Android基于JsBridge封装的高效带加载进度的WebView
-可用作简单应用内置浏览器，帮你快速开发Hybrid APP
-
-
 
 ![](https://github.com/NeglectedByBoss/JsWebView/blob/master/TcBrowse/app/src/main/res/drawable/logoMax.png)
+# JsWebView
 
+Android基于JsBridge封装的高效带加载进度的WebView
+可用作简单应用内置浏览器，帮你快速开发Hybrid APP
 
 主要功能：
 
