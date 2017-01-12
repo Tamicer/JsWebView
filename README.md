@@ -41,6 +41,16 @@ Module:
 
 # Function
   
+    **XMl**
+    
+     <com.tamic.jswebview.view.ProgressBarWebView
+        android:id="@+id/login_progress_webview"
+        style="@style/NumberProgressBar_Default"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     </com.tamic.jswebview.view.ProgressBarWebView>
+  
   **初始化**
       
         ProgressBarWebView  mProgressBarWebView = (ProgressBarWebView) findViewById(R.id.login_progress_webview);
